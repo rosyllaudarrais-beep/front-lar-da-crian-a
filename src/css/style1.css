@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
+
+.banner {
+  background-image: url("../assets/image/9947b10466ef812f435d926be450b0b6a73ebde7.png"); /* substitua pela sua imagem */
+  background-size: cover;
+  background-position: center;
+  opacity: 80%;
+  width: 80%;
+  height: 50em;
+  margin: 40px auto;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  text-align: center;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.subtitulo {
+  font-size: 4em;
+  color: #f7f2f2;
+}
+
+h1 {
+  font-size: 36px;
+  color: #f3eded;
+  margin: 10px 0 20px;
+}
+
+.botao {
+  background-color: #aaaac5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #3f3f9e;
+}

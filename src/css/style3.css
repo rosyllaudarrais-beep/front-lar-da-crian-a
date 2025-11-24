@@ -1,0 +1,101 @@
+/* Variáveis */
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
+
+:root {
+    --sombra: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+
+.header-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1em;
+}
+
+nav {
+    background-color: var(--primaryColor);
+    height: 15em;
+}
+
+.lista-nav {
+    list-style: none;
+    display: flex;
+    height: 15em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.lista-nav li:first-child{
+    margin-left: 4em;
+}
+
+.button-back{
+    width: 6em;
+    height: 6em;
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(56%) sepia(9%) saturate(93%) hue-rotate(210deg) brightness(100%) contrast(90%);
+    transition: filter 0.25s ease 0s;
+}
+
+.button-back:hover{
+    filter: brightness(0) saturate(100%) invert(4%) sepia(0%) saturate(2851%) hue-rotate(228deg) brightness(100%) contrast(96%);
+    transition: filter 0.25s ease 0s;
+}
+
+
+.lista-nav  li:last-child {
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 100%;
+    margin-right: 4em;
+}
+
+.nav-title {
+    width: 10em;
+    font-size: 3.6em;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Container geral */
+.container {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--primaryColor);
+    overflow: hidden;
+}
+
+/* Conteúdo */
+.conteudo {
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa do texto */
+.caixa {
+    background: var(--primaryColor);
+    border-radius: 40px;
+    padding: 40px 50px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: var(--sombra);
+}
+
+.caixa h2 {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.caixa p {
+    text-align: justify;
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+    color: var(--textColor);
+    line-height: 1.5rem;
+}

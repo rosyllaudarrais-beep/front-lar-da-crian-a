@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
+
+/* ---------------- HEADER ---------------- */
+
+.header-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1em;
+}
+
+nav {
+    background-color: var(--primaryColor);
+    height: 15em;
+}
+
+.lista-nav {
+    list-style: none;
+    display: flex;
+    height: 15em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.lista-nav li:first-child {
+    margin-left: 4em;
+}
+
+.button-back {
+    width: 6em;
+    height: 6em;
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(56%) sepia(9%) saturate(93%) hue-rotate(210deg) brightness(100%) contrast(90%);
+    transition: filter 0.25s ease;
+}
+
+.button-back:hover {
+    filter: brightness(0) saturate(100%) invert(4%) sepia(0%) saturate(2851%) hue-rotate(228deg) brightness(100%) contrast(96%);
+}
+
+.lista-nav li:last-child {
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 100%;
+    margin-right: 4em;
+}
+
+.nav-title {
+    width: 10em;
+    font-size: 3.6em;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ---------------- CONTEÚDO ---------------- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 6.4em;
+}
+
+/* Quebra automática de linha em todos os textos */
+.psup,
+.psub,
+.listapsub li,
+.listapsup li {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Estilos de texto */
+.psup,
+.psub {
+    font-size: 1.5em;
+    max-width: 127em;
+    line-height: 1.5em;
+}
+
+.listapsub li {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* Container dos parágrafos */
+.container-p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-star
+} 
